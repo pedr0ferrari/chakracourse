@@ -6,8 +6,8 @@ import { Container, Flex, VStack, Text } from "@chakra-ui/react";
 const Page = () => (
   <Container maxW="container.xl" p="0">
     <Flex h="100vh" py="20">
-      <Details></Details>
-      <Cart></Cart>
+      <Details />
+      <Cart />
     </Flex>
   </Container>
 );
